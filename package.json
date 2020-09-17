@@ -1,0 +1,26 @@
+{
+  "name": "uni-check",
+  "version": "1.0.0",
+  "description": "Checks multiple addresses for Uniswap UNI distribution",
+  "main": "src/index.js",
+  "author": "Kim Persson",
+  "license": "MIT",
+  "bin": {
+    "uni-check": "./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bignumber.js": "^9.0.0",
+    "ethereumjs-util": "^7.0.5",
+    "lodash": "^4.17.20",
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
