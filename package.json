@@ -1,12 +1,16 @@
 {
   "name": "uni-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks multiple addresses for Uniswap UNI distribution",
   "main": "src/index.js",
   "author": "Kim Persson",
   "license": "MIT",
   "bin": {
     "uni-check": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimpers/uni-check"
   },
   "dependencies": {
     "axios": "^0.20.0",

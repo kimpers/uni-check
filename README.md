@@ -8,7 +8,7 @@ If you have used many different Ethereum accounts it can be a hassle to log in t
 ## Usage
 
 1. Install `npm install -g uni-check`
-1. Run command with your Ethereum addresses as space separated account list
+1. Run command with your Ethereum addresses as space separated arguments
 
 ```
 uni-check 0x0000000000000000000000000000000000000000 0x0000000000000000000000000000000000000001 0x0000000000000000000000000000000000000002
